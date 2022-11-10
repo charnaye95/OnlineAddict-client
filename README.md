@@ -1,3 +1,8 @@
+# About
+
+Alana Calvo, Charnaye Grier, and I are working on Online Addict to perfect or software engineering skills.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
