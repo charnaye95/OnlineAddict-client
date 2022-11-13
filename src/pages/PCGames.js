@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import '../assets/css/PCGames.css';
 import axios from 'axios';
+
 
 
 function PCGames() {
@@ -26,9 +28,12 @@ function PCGames() {
             <div>
                 {PCGames.map((item, i) => {
                     return(
-                        <div key={i}>
-                            <img src={item.image}/>
-                            <h2>{item.title}</h2>
+                        <div className="item-container" key={i}>
+                            <img className="item-img" src={item.image}/>
+                            <div>
+                                <h2 className="item-price">{item.price.symbol}{item.price.value}</h2>
+                                <h2 className="item-title">{item.title}</h2>
+                            </div>
                         </div>
                     )
                 })}

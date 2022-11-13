@@ -1,0 +1,17 @@
+
+.item-container {
+    display: flex;
+    margin: 2rem;
+}
+.item-img {
+    border: 3px solid gray;
+    box-shadow:gray 0px 2px 5px 5px;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.item-price {
+    width:fit-content;
+    padding: 0.5rem;
+    border: 3px solid gray;
+    box-shadow:gray 0px 2px 3px 3px;
+}
