@@ -22,7 +22,22 @@ function PCGames() {
   return (
     <div>
         <h1>PC Games</h1>
-        
+        {PCGames.length ? 
+            <div>
+                {PCGames.map((item, i) => {
+                    return(
+                        <div key={i}>
+                            <img src={item.image}/>
+                            <h2>{item.title}</h2>
+                        </div>
+                    )
+                })}
+            </div> 
+            :
+            <div>
+                <h1>Loading Games</h1>
+            </div> 
+        }
 
     </div>
   )
